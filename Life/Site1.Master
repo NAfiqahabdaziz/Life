@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Life.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <link href="~/css/StyleSheet.css" rel="stylesheet" runat="server"/>
+    <link href="~/css/responsive.css" rel="stylesheet" runat="server"/>
+    <meta charset="utf-8"/>
+	<meta name="author" content="Nurul Afiqah Binti Abd Aziz"/>
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<!-- end: Mobile Specific -->
+ 
+     <meta name="viewport" content="initial-scale=1.0"/>
+    
+    
+    <!-- end: Meta -->
+    
+    <title>Life's Good</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+        <div id="wrapper">
+        <div class="container">
+		
+		
+			<!--start: Header -->
+			<header>
+			    
+                <!--Font size button-->
+                <div id="zoom_button">
+                            
+
+                <input type="button" value="+" onclick="zoomIn()"/>
+                <input type="button" value="-" onclick="zoomOut()"/>
+                </div>
+               
+				<!--start: Row -->
+				<div class="row">
+				
+                    	<!--Login and Cart Button-->
+                     <div id= "login"> 
+                        <ul>
+                        <li><a href="#"><img src="~/images/1st page/cartbutton.png" alt="cart" runat="server"/></a></li>
+                        </ul>
+                        </div>
+                        <!--end of login and cart button-->
+							</div>
+				<!--end: Row -->
+                </header>
+			<!--end: Header-->
+				<!--start: Navigation-->	
+                		<div class='ribbon'>
+                  					<a href="~/Default.aspx" runat="server"><span>Home</span></a>
+                  						<a href="~/Products.aspx" runat="server"><span>Products</span></a>
+                 							 <a href="~/ContactUs.aspx" runat="server"><span>Contact Us</span></a>
+               						 </div>
+                 <!--end: Navigation-->
+			</div>
+		<!--end: Container-->
+        
+
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+
+        <!-- start: Footer -->
+			<div id="footer">
+				<!-- start: Container -->
+						<div class="container">
+							<!-- start: Row -->
+								<div class="row">
+									<!-- start: About -->
+										<div class="span3">
+											<h3>About Us</h3>
+												<p>This Company produce the Disability Equipment in giving disable person comfortness at any stage of ages. Life's Good also to support the disable to move on in their life either they are old or kids. This equipment will make them happy and continue to have more memories in thier life.</p>
+													</div>
+                                                    	<!-- end: About -->
+													<!-- start: -->
+                                                   <div class="span3">
+												<h3>Contact Us</h3>
+                           					 <p>Kindly contact us if any inquiry:</p>
+                            			<p>Roof Top, Plaza Abdul Razak Jalan Laksamana Abdul Razak Km 2 Jalan Tutong, Bandar Seri Begawan BA 1712, Negara Brunei Darussalam</p>
+                                    <p>Tel: +673 223 8816/18</p>
+                                    <p> Email: enquiries@laksamanacollege.edu.bn</p>
+                                  </div>
+				<!-- end: Contact Us -->
+				<div class="span6">
+							<!-- start: Follow Us -->
+                            
+									<h3>Follow Us!</h3>
+										<ul id="socialmedia">
+										 <li>  <a href="~/https://www.facebook.com/Laksamanacollege"><img src="images/icon/icon1.png" alt="facebook"/></a></li>
+												<li><a href="~/https://www.instagram.com/lcb_brunei/"><img src="images/icon/icon2.png" alt="instagram"/></a>
+												</li>
+</ul>
+
+</div>
+
+<div class="check">
+
+<ul id="link">
+<li><a href="http://validator.w3.org/check?uri=referer">Validate HTML</a></li>
+<li> &#9474;</li>
+<li><a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a></li>
+<li> &#9474;</li>
+<li><a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a></li>
+</ul>
+</div>
+			</div>
+		<!-- end: Follow Us -->
+			
+			</div>	
+				<!-- end:Container  -->
+
+
+
+
+
+
+</div>
+    </div>
+    </form>
+
+    <!-- start: Copyright -->
+	<div id="copyright">
+			<!-- start: Container -->
+					<div class="container">
+						<p>&copy; 2017, Life's Good. Designed by 1525598</p>
+                       </div>
+		<!-- end: Container  -->
+	</div>	
+	<!-- end: Copyright -->
+    
+</body>
+</html>
+

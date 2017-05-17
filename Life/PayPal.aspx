@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-      <h2>Purchase past exam questions</h2>
+      <h2>Purchase the items</h2>
         
         <asp:Label ID="lblQuantity" runat="server" Text="Quantity at $10 each" AssociatedControlID="ddlExamQuantity"></asp:Label>
 
@@ -18,7 +18,7 @@
 
     <p>Postage and packaging charges of $3.95 will be applied to your order</p>
 
-    <asp:Button ID="btnPurchaseExamQuestions" runat="server" Text="Buy Now" OnClick="btnPurchaseExamQuestions_Click1" />
+    <asp:Button ID="btnPurchaseExamQuestions" runat="server" Text="Confirmation" OnClick="btnPurchaseExamQuestions_Click1" />
 
 
 </asp:Content>

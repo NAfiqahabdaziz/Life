@@ -65,5 +65,5 @@
             <asp:QueryStringParameter Name="ProductId" QueryStringField="ProductId" Type="Int32" />
         </SelectParameters>
     </asp:SqlDataSource>
-    <asp:Button ID="Button1" runat="server" Text="Add to Cart" />
+    <asp:Button ID="Button1" runat="server" Text="Buy Now" OnClick="Button1_Click" PostBackUrl="~/PayPal.aspx" />
 </asp:Content>

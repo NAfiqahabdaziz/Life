@@ -20,8 +20,9 @@
               
               <asp:HyperLinkField DataNavigateUrlFields="ProductId" DataNavigateUrlFormatString="ViewProducts.aspx?ProductId={0}" Text="Views" />
             <asp:HyperLinkField />
-             
+            
           </Columns>
+     
       </asp:GridView>
       <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:db_1525598_1525598_co5027_assign %>" SelectCommand="SELECT * FROM [Product]"></asp:SqlDataSource>
 </asp:Content>

@@ -96,6 +96,10 @@
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="PayPal, Version=1.8.0.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PayPal.1.8.0\lib\net451\PayPal.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -115,6 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin%28Products%29.aspx" />
+    <Content Include="CompletePurchase.aspx" />
     <Content Include="images\1st page\anigif.gif" />
     <Content Include="images\1st page\bg-repeat.jpg" />
     <Content Include="images\1st page\cartbutton.png" />
@@ -133,6 +138,7 @@
     <Content Include="images\new\hearing-aid.jpg" />
     <Content Include="images\new\spokeguard.jpg" />
     <Content Include="packages.config" />
+    <Content Include="PayPal.aspx" />
     <Content Include="Products.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
@@ -167,6 +173,13 @@
     <Compile Include="Admin%28Products%29.aspx.designer.cs">
       <DependentUpon>Admin%28Products%29.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CompletePurchase.aspx.cs">
+      <DependentUpon>CompletePurchase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompletePurchase.aspx.designer.cs">
+      <DependentUpon>CompletePurchase.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ContactUs.aspx.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -190,6 +203,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PayPal.aspx.cs">
+      <DependentUpon>PayPal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PayPal.aspx.designer.cs">
+      <DependentUpon>PayPal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Products.aspx.cs">
       <DependentUpon>Products.aspx</DependentUpon>

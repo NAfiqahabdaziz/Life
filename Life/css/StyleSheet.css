@@ -837,6 +837,11 @@ margin-left:240px;
 }
 /* Login and Registration form
 ====================================================================== */
+
+#login1 ul li a img{
+    margin-left:790px;
+    margin-top:-900px;
+}
       .Login {
             width: 320px;
             height: 250px;
@@ -1287,6 +1292,24 @@ html[xmlns] .slides {display: block;}
 }
 
 
+/* Form
+====================================================================== */
+.form1 {
+    Width:469px;
+height: 157px;
+     margin-left: 55px;
+            margin-top: 35px;
+
+}
+
+#Gridview1 asp.Gridview1{
+ Height:450px;
+      Width:825px;
+       margin-left: 53px;
+            margin-top: 90px;
+            margin-bottom: 121px;
+
+}
 
 /* Copyright
 ====================================================================== */

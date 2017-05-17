@@ -19,6 +19,7 @@
     
     <title>Life's Good</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
+                           
     </asp:ContentPlaceHolder>
 </head>
 <body>
@@ -42,9 +43,12 @@
 				<!--start: Row -->
 				<div class="row">
 				
-                    	<!--Login and Cart Button-->
+                    	<!--Cart Button-->
                      <div id= "login"> 
                         <ul>
+                          
+                        <li><a href="Login.aspx">
+                            <img src="~/images/1st page/loginbutton1.png" alt="cart" runat="server"/></a></li>
                         <li><a href="#"><img src="~/images/1st page/cartbutton.png" alt="cart" runat="server"/></a></li>
                         </ul>
                         </div>
